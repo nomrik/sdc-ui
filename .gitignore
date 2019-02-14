@@ -2,6 +2,8 @@
 
 /dist
 /tmp
+/lib
+/build
 /node_modules
 npm-debug.log*
 Thumbs.db
@@ -10,11 +12,17 @@ Thumbs.db
 .idea
 .vscode
 .history
+package-lock.json
 # build files
 lib
 css
 demo/gen
 .out
+src/react/utils/iconMap.js
 
 #coverage files
 coverage
+
+#ignore generated icons files
+src/common/icons-map.ts
+src/common/icons-map.json
